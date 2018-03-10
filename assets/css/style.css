@@ -1,22 +1,21 @@
 body {
-	background: url('../images/wallpaper.jpg') no-repeat center center fixed;
+	background: url('../images/wallpaper5.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 .bodycontainer {
-    background: linear-gradient(to bottom right, #483C2C, #7B6F5F);
+    background: linear-gradient(to bottom right, rgba(126, 129, 138, 0.75), rgba(173, 183, 192, .75));
 	border: .1px solid;
 	border-radius: 15px 15px 15px 15px;
 	margin: 0 auto;
 	width: 85%;
 	height: 800px;
 	margin-top: 1%;
-	opacity: .8;
 }
 
 .titlebox {
-    color: #FFFBF7;
-    background: linear-gradient(to bottom right, #625646, #554939);
+    color: #F0EDE4;
+    background: linear-gradient(to bottom right, rgba(173, 183, 192, .75), rgba(126, 129, 138, 0.75));
 	border: 0px solid red;
 	border-radius: 15px 15px 15px 15px;
 	margin: 0 auto;
