@@ -1,0 +1,33 @@
+body {
+	background: url('../images/wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bodycontainer {
+    background: linear-gradient(to bottom right, #483C2C, #7B6F5F);
+	border: .1px solid;
+	border-radius: 15px 15px 15px 15px;
+	margin: 0 auto;
+	width: 85%;
+	height: 800px;
+	margin-top: 1%;
+	opacity: .8;
+}
+
+.titlebox {
+    color: #FFFBF7;
+    background: linear-gradient(to bottom right, #625646, #554939);
+	border: 0px solid red;
+	border-radius: 15px 15px 15px 15px;
+	margin: 0 auto;
+	width: 95%;
+	height: 20%;
+	margin-top: 1%;
+	padding: .5%;
+	
+}
+
+.titlefont {
+	font-weight: bold;
+}
+
