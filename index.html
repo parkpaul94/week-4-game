@@ -2,20 +2,64 @@
 <html>
 <head>
     <title>Star Wars Game</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="assets/css/style.css">
+    <link href ="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-<div class="bodycontainer">
-    <div class="titlebox">
-        <h1 class="titlefont text-center">Welcome To Star Wars Game</h1>
-        <h2 class="ccfont text-center">Choose Your Character</h2>
+<div class ="bodycontainer">
+    <div class ="titlebox">
+        <h1 class ="titlefont text-center">Welcome To Star Wars Game</h1>
+        <h2 class ="ccfont text-center">Choose Your Character</h2>
+    </div>
+
+    <div class ="flexbox">
+        <div class ="character-list">
+            <div class ="character available" id ="dv">
+                Darth Vader
+                <div class ="darth image"></div>
+                <progress id="health" value="100" max="100"></progress>
+            </div>
+
+            <div class ="character available" id ="bf">
+                Boba Fett
+                <div class ="boba image"></div>
+                <progress id="health" value="100" max="100"></progress>
+            </div>
+
+            <div class ="character available" id ="yd">
+                Yoda
+                <div class ="yoda image"></div>
+                <progress id="health" value="100" max="100"></progress>
+            </div>
+            
+            <div class ="character available" id ="ls">
+                Luke Skywalker
+                <div class ="luke image"></div>
+                <progress id="health" value="100" max="100"></progress>
+            </div>
+        </div>
+
+        <div class ="chosen">
+            <div class ="fighter">
+                    <!-- <div class ="character2 available" id ="ls">
+                            Luke Skywalker
+                            <div class ="four"></div> -->
+                        </div>
+            </div>
+            <div class ="defender">
+                    <!-- <div class ="character2 available" id ="ls">
+                            Luke Skywalker
+                            <div class ="four"></div> -->
+                        </div>
+            </div>
+        </div>
+
     </div>
 </div>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
 
 </html>
