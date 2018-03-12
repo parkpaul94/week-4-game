@@ -1,10 +1,11 @@
 body {
-	background: url('../images/wallpaper5.jpg') no-repeat center center fixed;
+	background: url('../images/wallpaper.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bodycontainer {
-    background: linear-gradient(to bottom right, rgba(126, 129, 138, 0.75), rgba(173, 183, 192, .75));
+    background: linear-gradient(to bottom right, rgba(135, 181, 205, .75), rgba(185, 214, 230, 0.75));
 	border: .1px solid;
 	border-radius: 15px 15px 15px 15px;
 	margin: 0 auto;
@@ -14,15 +15,15 @@ body {
 }
 
 .titlebox {
-    color: #F0EDE4;
-    background: linear-gradient(to bottom right, rgba(173, 183, 192, .75), rgba(126, 129, 138, 0.75));
+    color: #783A28;
+    background: linear-gradient(to bottom right, rgba(185, 214, 230, 0.75), rgba(135, 181, 205, .75));
 	border: 0px solid red;
 	border-radius: 15px 15px 15px 15px;
 	margin: 0 auto;
-	width: 95%;
+	width: 97.5%;
 	height: 20%;
 	margin-top: 1%;
-	padding: .5%;
+	padding: .75%;
 	
 }
 
