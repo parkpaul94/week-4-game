@@ -121,3 +121,7 @@ body {
     flex: 1;
     border-radius: 15px 15px 15px 15px;
 } */
+
+progress[value]{
+    width: 100%;
+  }

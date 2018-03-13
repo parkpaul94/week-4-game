@@ -47,9 +47,3 @@ function setDefender (cdefender) {
 function removeCharacter () {
     $(".available").removeClass("available").addClass("unavailable");
 }
-
-// let health = document.getElementById("health")
-// health.value -= 30; 
-
-// TRY TO MAKE IT SO FIGHTER'S HEALTH INCREASES WITH EVERY BATTLE WON
-// POSSIBLY RANDOMIZE ATTACK DAMAGE?
