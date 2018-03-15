@@ -9,8 +9,8 @@ var darth   = {
                 name: "Darth Vader",
                 maxhp: 500,
                 hp: 500,
-                baseAttack: 20,
-                damage: 20,
+                baseAttack: Math.floor(Math.random() * 5),
+                damage: Math.floor(Math.random() * 20),
                 heal: 5
 };
 
@@ -18,8 +18,8 @@ var boba    = {
                 name: "Boba Fett",
                 maxhp: 300,
                 hp: 300,
-                baseAttack: 12,
-                damage: 12,
+                baseAttack: Math.floor(Math.random() * 6),
+                damage: Math.floor(Math.random() * 12),
                 heal: 2
 };
 
@@ -28,16 +28,16 @@ var yoda    = {
                 maxhp: 400,
                 hp: 400,
                 baseAttack: 15,
-                damage: 15,
-                heal: 15
+                damage: Math.floor(Math.random() * 7),
+                heal: Math.floor(Math.random() * 15)
 };
 
 var luke    = {
                 name: "Luke Skywalker",
                 maxhp: 250,
                 hp: 250,
-                baseAttack: 10,
-                damage: 10,
+                baseAttack: Math.floor(Math.random() * 5),
+                damage: Math.floor(Math.random() * 10),
                 heal: 7
 };
 
